@@ -1,14 +1,6 @@
 function addTask() {
     let input = document.getElementById("taskInput");
     let task = input.value.trim();
-
-    if (task !== "") {
-        let list = document.getElementById("taskList");
-        let li = document.createElement("li");
- 
-        list.appendChild(li);
-        input.value = "";
-    }
 }
 
 function removeTask(button) {
